@@ -3,7 +3,7 @@
 # Example R code to install packages if not already installed
 #
 
-my_packages = c("rvest", "reshape","dplyr","tmap","viridis","sf","maptools","rlang","cartogram","XML")
+my_packages = c("rvest", "units","reshape","dplyr","tmap","viridis","sf","maptools","rlang","cartogram","XML")
 
 
 install_if_missing = function(p) {
