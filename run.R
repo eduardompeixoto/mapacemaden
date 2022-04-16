@@ -899,7 +899,6 @@ risco_geo<-a
 
 
 
-library(sf)
 library(maptools)
 library(tmap)
 library(XML)
