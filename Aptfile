@@ -1,9 +1,8 @@
 # you can list packages
 r-cran-sf
-r-cran-tmap
 r-cran-reshape
 r-cran-maptools
 r-cran-cartogran
-r-cran-rves
+r-cran-rvest
 r-cran-rlang
 r-cran-xml
