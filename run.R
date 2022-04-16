@@ -1,4 +1,4 @@
-
+require(sf)
 library(shiny)
 # risco hidro
 require(rlang)
