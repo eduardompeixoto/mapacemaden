@@ -1,3 +1,6 @@
 # you can list packages
 libudunit*
-r-cran-*
+r-cran-units
+r-cran-sf
+r-cran-terra
+r-cran-rgdal
