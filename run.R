@@ -18,7 +18,7 @@ server <- function(input, output) {
         
         #regiao baixada 1
         
-        url <- "https://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=1"
+        url <- "http://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=1"
         h1 <- read_html(url)
         
         a<- rvest::html_text (h1,"table table-sm table-responsive-sm justify-content-center")
@@ -56,7 +56,7 @@ server <- function(input, output) {
         
         #regiao litoranea
         
-        url <- "https://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=2"
+        url <- "http://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=2"
         h1 <- read_html(url)
         
         a<- rvest::html_text (h1,"table table-sm table-responsive-sm justify-content-center")
@@ -97,7 +97,7 @@ server <- function(input, output) {
         #capital
         
         
-        url <- "https://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=3"
+        url <- "http://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=3"
         h1 <- read_html(url)
         
         a<- rvest::html_text (h1,"table table-sm table-responsive-sm justify-content-center")
@@ -118,7 +118,7 @@ server <- function(input, output) {
         
         #costa verde
         
-        url <- "https://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=4"
+        url <- "http://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=4"
         h1 <- read_html(url)
         
         a<- rvest::html_text (h1,"table table-sm table-responsive-sm justify-content-center")
@@ -143,7 +143,7 @@ server <- function(input, output) {
         
         #metro
         
-        url <- "https://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=5"
+        url <- "http://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=5"
         h1 <- read_html(url)
         
         a<- rvest::html_text (h1,"table table-sm table-responsive-sm justify-content-center")
@@ -172,7 +172,7 @@ server <- function(input, output) {
         
         #regiao norte
         
-        url <- "https://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=6"
+        url <- "http://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=6"
         h1 <- read_html(url)
         
         a<- rvest::html_text (h1,"table table-sm table-responsive-sm justify-content-center")
@@ -202,7 +202,7 @@ server <- function(input, output) {
         
         #regiao Noroeste
         
-        url <- "https://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=7"
+        url <- "http://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=7"
         h1 <- read_html(url)
         
         a<- rvest::html_text (h1,"table table-sm table-responsive-sm justify-content-center")
@@ -249,7 +249,7 @@ server <- function(input, output) {
         
         #regiao Serrana
         
-        url <- "https://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=8"
+        url <- "http://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=8"
         h1 <- read_html(url)
         
         a<- rvest::html_text (h1,"table table-sm table-responsive-sm justify-content-center")
@@ -284,7 +284,7 @@ server <- function(input, output) {
         
         #regiao Serrana2
         
-        url <- "https://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=9"
+        url <- "http://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=9"
         h1 <- read_html(url)
         
         a<- rvest::html_text (h1,"table table-sm table-responsive-sm justify-content-center")
@@ -320,7 +320,7 @@ server <- function(input, output) {
         
         #regiao sul
         
-        url <- "https://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=10"
+        url <- "http://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=10"
         h1 <- read_html(url)
         
         a<- rvest::html_text (h1,"table table-sm table-responsive-sm justify-content-center")
@@ -365,7 +365,7 @@ server <- function(input, output) {
         
         #sul2
         
-        url <- "https://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=11"
+        url <- "http://monitoramento.preserve.rio.br/monitoramento/monitoramento.php?action=1&id=11"
         h1 <- read_html(url)
         
         a<- rvest::html_text (h1,"table table-sm table-responsive-sm justify-content-center")
